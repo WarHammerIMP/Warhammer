@@ -3,7 +3,7 @@
     "type": "dynamic_repo",
     "url": "https://warhammerimp.github.io/Warhammer/"
   },
-  "build": 1,
+  "build": 2,
   "packs": [
     {
       "path": "./",
