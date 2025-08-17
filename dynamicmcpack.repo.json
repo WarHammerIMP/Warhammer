@@ -1,0 +1,13 @@
+{
+  "remote": {
+    "type": "dynamic_repo",
+    "url": "https://username.github.io/MySinglePack/"
+  },
+  "build": 1,
+  "packs": [
+    {
+      "path": "./",
+      "name": "My Single Resource Pack"
+    }
+  ]
+}
