@@ -1,7 +1,7 @@
 {
   "remote": {
     "type": "dynamic_repo",
-    "url": "https://username.github.io/MySinglePack/"
+    "url": "https://warhammerimp.github.io/Warhammer/"
   },
   "build": 1,
   "packs": [
