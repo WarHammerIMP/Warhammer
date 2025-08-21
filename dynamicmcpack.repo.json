@@ -1,13 +1,14 @@
 {
-  "remote": {
-    "type": "dynamic_repo",
-    "url": "https://warhammerimp.github.io/Warhammer/"
-  },
-  "build": 1,
-  "packs": [
-    {
-      "path": "./",
-      "name": "My Single Resource Pack"
-    }
-  ]
+	"formatVersion": 1,
+	"build": 1,
+	"name": "WarHammer",
+	"contents": [
+		{
+			"url": "warhammer_pack/c.json",
+			"hash": "630fb8763b501d408427cbc03d69fe5b706e7b9d",
+			"id": "warhammer",
+			"name": "WarHammerIMP",
+			"required": true
+		}
+	]
 }
