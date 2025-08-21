@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
 	"formatVersion": 1,
 	"build": 1,
 	"name": "WarHammer",
@@ -13,17 +12,3 @@
 		}
 	]
 }
-=======
-  "remote": {
-    "type": "dynamic_repo",
-    "url": "https://warhammerimp.github.io/Warhammer/"
-  },
-  "build": 2,
-  "packs": [
-    {
-      "path": "./",
-      "name": "My Single Resource Pack"
-    }
-  ]
-}
->>>>>>> 08b970801cf08aa61644734b88af331ba630745c
