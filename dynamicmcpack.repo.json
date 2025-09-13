@@ -1,11 +1,11 @@
 {
 	"formatVersion": 1,
-	"build": 1,
+	"build": 2,
 	"name": "WarHammer",
 	"contents": [
 		{
 			"url": "warhammer_pack/c.json",
-			"hash": "630fb8763b501d408427cbc03d69fe5b706e7b9d",
+			"hash": "820d826b4460f07f996abb2ff01810d8a0632faa",
 			"id": "warhammer",
 			"name": "WarHammerIMP",
 			"required": true

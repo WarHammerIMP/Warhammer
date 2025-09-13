@@ -1,0 +1,87 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "./box_of_weapon_green",
+		"particle": "./box_of_weapon_black"
+	},
+	"elements": [
+		{
+			"from": [-3, 0, 2],
+			"to": [19, 7, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [5.5, 6.25, 11, 8], "texture": "#0"},
+				"east": {"uv": [5.5, 9.75, 8.25, 11.5], "texture": "#0"},
+				"south": {"uv": [5.5, 8, 11, 9.75], "texture": "#0"},
+				"west": {"uv": [8.25, 9.75, 11, 11.5], "texture": "#0"},
+				"up": {"uv": [5.5, 8.25, 0, 5.5], "texture": "#0"},
+				"down": {"uv": [11, 0, 5.5, 2.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "2sl",
+			"from": [19.25, 7.25, 13.25],
+			"to": [-3.25, -0.25, 1.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-12, 0, -2]},
+			"faces": {
+				"north": {"uv": [5.5, 6.25, 11, 4.5], "texture": "#0"},
+				"east": {"uv": [2.75, 10, 5.5, 8.25], "texture": "#0"},
+				"south": {"uv": [5.5, 4.5, 11, 2.75], "texture": "#0"},
+				"west": {"uv": [0, 10, 2.75, 8.25], "texture": "#0"},
+				"up": {"uv": [0, 2.75, 5.5, 5.5], "texture": "#0"},
+				"down": {"uv": [0, 2.75, 5.5, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "2sl",
+			"from": [-3.25, -0.25, 1.75],
+			"to": [19.25, 7.25, 13.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 6]},
+			"faces": {
+				"north": {"uv": [5.508, 2.758, 10.992, 4.492], "texture": "#0"},
+				"east": {"uv": [0.008, 8.258, 2.742, 9.992], "texture": "#0"},
+				"south": {"uv": [5.508, 4.508, 10.992, 6.242], "texture": "#0"},
+				"west": {"uv": [2.758, 8.258, 5.492, 9.992], "texture": "#0"},
+				"up": {"uv": [5.492, 2.742, 0.008, 0.008], "texture": "#0"},
+				"down": {"uv": [5.492, 2.758, 0.008, 5.492], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [65, 0, 0],
+			"translation": [-6, 5.5, 4.25]
+		},
+		"firstperson_righthand": {
+			"translation": [-9, 0.5, -0.75]
+		},
+		"ground": {
+			"translation": [0, 1.75, 0]
+		},
+		"gui": {
+			"rotation": [30, 30, 0],
+			"translation": [0.125, 2.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [90, 22.5, 0],
+			"translation": [2, -17, 14.75],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -14],
+			"scale": [2.01, 2.01, 2.01]
+		}
+	},
+	"groups": [
+		{
+			"name": "Box",
+			"origin": [6, 0, 6],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

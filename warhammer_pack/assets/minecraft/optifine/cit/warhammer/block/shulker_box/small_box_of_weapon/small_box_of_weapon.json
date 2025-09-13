@@ -1,0 +1,82 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "./small_box_of_weapon_black",
+		"particle": "./small_box_of_weapon_black"
+	},
+	"elements": [
+		{
+			"from": [7.975, 5, 3],
+			"to": [8.025, 11, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 5, 0]},
+			"faces": {
+				"east": {"uv": [0.016, 0.016, 4.984, 2.984], "texture": "#0"},
+				"west": {"uv": [0.016, 3.016, 4.984, 5.984], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 0, 3],
+			"to": [11, 5, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 11, 3, 13.5], "texture": "#0"},
+				"east": {"uv": [6, 10, 11, 12.5], "texture": "#0"},
+				"south": {"uv": [11, 8.5, 14, 11], "texture": "#0"},
+				"west": {"uv": [11, 0, 16, 2.5], "texture": "#0"},
+				"up": {"uv": [11, 10, 8, 5], "texture": "#0"},
+				"down": {"uv": [6, 10, 3, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.75, 3.75, 2.75],
+			"to": [11.25, 7.25, 13.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 5, 0]},
+			"faces": {
+				"north": {"uv": [11, 11, 14, 12.5], "texture": "#0"},
+				"east": {"uv": [11, 2.5, 16, 4], "texture": "#0"},
+				"south": {"uv": [6, 12.5, 9, 14], "texture": "#0"},
+				"west": {"uv": [11, 4, 16, 5.5], "texture": "#0"},
+				"up": {"uv": [8, 5, 5, 0], "texture": "#0"},
+				"down": {"uv": [8, 5, 5, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [67.5, 0, 0],
+			"translation": [0, -2.25, -0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [15, 8, 14],
+			"translation": [2, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 2.25, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [-90, 77.75, 90],
+			"translation": [0, -7.25, 6.75],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -15.5],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "Box",
+			"origin": [16, 5, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

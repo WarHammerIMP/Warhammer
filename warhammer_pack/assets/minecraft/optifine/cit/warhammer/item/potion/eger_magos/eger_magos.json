@@ -1,0 +1,95 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "./eger_magos",
+		"particle": "./eger_magos"
+	},
+	"elements": [
+		{
+			"name": "2d",
+			"from": [4.75, -0.25, 5.75],
+			"to": [11.25, 10.25, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"south": {"uv": [3, 0, 6, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "2d",
+			"from": [6.75, 9.75, 6.75],
+			"to": [9.25, 13.25, 9.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [10.016, 4.016, 10.984, 5.484], "texture": "#0"},
+				"east": {"uv": [10.016, 5.516, 10.984, 6.984], "texture": "#0"},
+				"south": {"uv": [6.016, 10.016, 6.984, 11.484], "texture": "#0"},
+				"west": {"uv": [7.016, 10.016, 7.984, 11.484], "texture": "#0"},
+				"up": {"uv": [10.984, 10.984, 10.016, 10.016], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 0, 6],
+			"to": [11, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [0, 5, 3, 10], "texture": "#0"},
+				"east": {"uv": [8, 0, 10, 5], "texture": "#0"},
+				"south": {"uv": [3, 5, 6, 10], "texture": "#0"},
+				"west": {"uv": [8, 5, 10, 10], "texture": "#0"},
+				"up": {"uv": [13, 4, 10, 2], "texture": "#0"},
+				"down": {"uv": [6, 10, 3, 12], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 10, 7],
+			"to": [9, 13, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [10, 7, 11, 8.5], "texture": "#0"},
+				"east": {"uv": [8, 10, 9, 11.5], "texture": "#0"},
+				"south": {"uv": [10, 8.5, 11, 10], "texture": "#0"},
+				"west": {"uv": [9, 10, 10, 11.5], "texture": "#0"},
+				"up": {"uv": [12, 6, 11, 5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [39.5, 157.5, 0],
+			"translation": [-1, 1, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-21, 104, 0],
+			"translation": [0, 4, 2],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 6.75, 0]
+		},
+		"gui": {
+			"rotation": [-22.5, 157.5, 22.5],
+			"translation": [-0.25, 1.25, 0],
+			"scale": [0.95, 0.95, 0.95]
+		},
+		"head": {
+			"translation": [0, 19.2, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -14],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "Eger Magos",
+			"origin": [0, 1, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}
