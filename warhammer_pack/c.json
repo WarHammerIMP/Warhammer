@@ -1848,6 +1848,18 @@
 				"hash": "271bd107e1e481aa1c9cc491d165c0cd2bb50ab5",
 				"size": 895
 			},
+			"assets/minecraft/optifine/cit/warhammer/item/leather_horse_armor/color_chair_lvl_1/color_chair_lvl_1.json": {
+				"hash": "10cda8d746975875ad2a93453d9a0f99d4ad6f8f",
+				"size": 4204
+			},
+			"assets/minecraft/optifine/cit/warhammer/item/leather_horse_armor/color_chair_lvl_1/color_chair_lvl_1.png": {
+				"hash": "5c3c0bab49703d97f20b7fae749ba45244c849bb",
+				"size": 2670
+			},
+			"assets/minecraft/optifine/cit/warhammer/item/leather_horse_armor/color_chair_lvl_1/color_chair_lvl_1.properties": {
+				"hash": "75a990a3581aaffb38a846f716a8299d7829342f",
+				"size": 241
+			},
 			"assets/minecraft/optifine/cit/warhammer/item/potion/amosec_blue/white_djin.json": {
 				"hash": "89ddb9373b0d649449ebc1d98ee61776351da847",
 				"size": 3271
