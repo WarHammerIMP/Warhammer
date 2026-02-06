@@ -1,0 +1,51 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "./bear_barrel",
+		"particle": "./bear_barrel"
+	},
+	"elements": [
+		{
+			"name": "ItemPotion",
+			"from": [-3, 0, -7],
+			"to": [19, 22, 23],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, -6]},
+			"faces": {
+				"north": {"uv": [0, 5.5, 5.5, 11], "texture": "#0"},
+				"east": {"uv": [0, 0, 7.5, 5.5], "texture": "#0"},
+				"south": {"uv": [0, 5.5, 5.5, 11], "texture": "#0"},
+				"west": {"uv": [7.5, 0, 0, 5.5], "texture": "#0"},
+				"up": {"uv": [7.5, 0, 13, 7.5], "texture": "#0"},
+				"down": {"uv": [7.5, 0, 13, 7.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.28, 0.28, 0.28]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [1, 1.75, 0.5],
+			"scale": [0.14, 0.14, 0.14]
+		},
+		"ground": {
+			"translation": [0, 1, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, -1.25, 0],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -14.125],
+			"scale": [2.0125, 2.0125, 2.0125]
+		}
+	}
+}

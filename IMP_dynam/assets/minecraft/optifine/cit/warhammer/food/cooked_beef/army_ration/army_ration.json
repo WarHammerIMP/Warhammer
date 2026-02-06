@@ -1,0 +1,93 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Fortit",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "./army_ration",
+		"particle": "./army_ration_food"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 5],
+			"to": [12, 6, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3], "texture": "#1"},
+				"east": {"uv": [4, 6, 7, 9], "texture": "#1"},
+				"south": {"uv": [0, 3, 4, 6], "texture": "#1"},
+				"west": {"uv": [7, 6, 10, 9], "texture": "#1"},
+				"down": {"uv": [8, 3, 4, 6], "texture": "#1"}
+			}
+		},
+		{
+			"from": [12, 6, 11],
+			"to": [4, 4, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [4, 10, 8, 9], "texture": "#1"},
+				"east": {"uv": [0, 11, 3, 10], "texture": "#1"},
+				"south": {"uv": [0, 10, 4, 9], "texture": "#1"},
+				"west": {"uv": [8, 10, 11, 9], "texture": "#1"},
+				"up": {"uv": [0, 6, 4, 9], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 5, 5],
+			"to": [4, 8, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [5, 0, 8, 1.5], "texture": "#1"},
+				"west": {"uv": [5, 1.5, 8, 3], "texture": "#1"},
+				"up": {"uv": [5, 3, 4, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 8, 11],
+			"to": [2, 5, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [5, 3, 8, 1.5], "texture": "#1"},
+				"west": {"uv": [5, 1.5, 8, 0], "texture": "#1"},
+				"down": {"uv": [4, 3, 5, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, -135, 0],
+			"translation": [-2.75, 3.75, 4.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -157.5, 0],
+			"translation": [3, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 6.75, 0]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 3.5, 0]
+		},
+		"head": {
+			"rotation": [166.47, 12.29, -17.44],
+			"translation": [-1.25, 0.75, -1.5],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -14],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 4, 2],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

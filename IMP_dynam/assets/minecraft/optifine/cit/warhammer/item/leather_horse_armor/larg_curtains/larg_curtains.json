@@ -1,0 +1,79 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"1": "./larg_curtains"
+	},
+	"elements": [
+		{
+			"from": [-16, 29, 13],
+			"to": [32, 32, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 30, 14]},
+			"faces": {
+				"north": {"uv": [0, 7.5, 6, 7.875], "texture": "#1"},
+				"east": {"uv": [0, 8.25, 0.375, 8.625], "texture": "#1"},
+				"west": {"uv": [0, 8.25, 0.375, 8.625], "texture": "#1"},
+				"down": {"uv": [0, 7.875, 6, 8.25], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-16, 28, 12],
+			"to": [32, 32, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 30, 14]},
+			"faces": {
+				"south": {"uv": [0, 6.5, 6, 7], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [0, 6, 6, 6.5], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [0, 7, 6, 7.5], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [32, 32, 16],
+			"to": [-16, 28, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-32, 26, 10]},
+			"faces": {
+				"north": {"uv": [0, 7, 6, 6.5], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [6, 7, 0, 7.5], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [6, 6, 0, 6.5], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-16, -16, 12],
+			"to": [32, 32, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 30, 14]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 6], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [6, 0, 0, 6], "texture": "#1", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 3, 0],
+			"scale": [0.15, 0.15, 0.15]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"translation": [1, 1.75, 0],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0.75, -0.5, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -32, 9.875],
+			"scale": [2.0125, 2.0125, 2.0125]
+		}
+	}
+}

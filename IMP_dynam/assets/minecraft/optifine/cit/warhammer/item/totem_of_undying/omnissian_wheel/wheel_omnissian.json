@@ -1,0 +1,74 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "./wheel_omnissian",
+		"particle": "./wheel_omnissian"
+	},
+	"elements": [
+		{
+			"name": "1",
+			"from": [7.975, 5, 4],
+			"to": [8.025, 12, 11],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 8.5, 7.5]},
+			"faces": {
+				"east": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 7, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "2",
+			"from": [7.975, 5, 4],
+			"to": [8.025, 12, 11],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8.5, 7.5]},
+			"faces": {
+				"east": {"uv": [8, 0, 15, 7], "texture": "#0"},
+				"west": {"uv": [8, 0, 15, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "3",
+			"from": [7.975, 5, 4],
+			"to": [8.025, 12, 11],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 8.5, 7.5]},
+			"faces": {
+				"east": {"uv": [0, 8, 7, 15], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [0, 8, 7, 15], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "4",
+			"from": [7.975, 5, 4],
+			"to": [8.025, 12, 11],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8.5, 7.5]},
+			"faces": {
+				"east": {"uv": [8, 8, 15, 15], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [8, 8, 15, 15], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [2.65, -2.5, 6.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [2.65, -2.5, 6.5]
+		},
+		"firstperson_righthand": {
+			"translation": [2, 0, 0]
+		},
+		"ground": {
+			"rotation": [0, 0, 90]
+		},
+		"gui": {
+			"rotation": [-22.5, 67.5, 22.5],
+			"translation": [1, -0.75, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [1, -1, 0.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}

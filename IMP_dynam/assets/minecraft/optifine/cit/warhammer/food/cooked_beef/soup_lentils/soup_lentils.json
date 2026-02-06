@@ -1,0 +1,81 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made by Fortit",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "./soup_lentils",
+		"particle": "./soup_lentils_food"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 4, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 8, 6], "texture": "#1"},
+				"east": {"uv": [4, 6, 8, 8], "texture": "#1"},
+				"south": {"uv": [0, 8, 4, 10], "texture": "#1"},
+				"west": {"uv": [8, 0, 12, 2], "texture": "#1"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#1"}
+			}
+		},
+		{
+			"from": [12, 4, 12],
+			"to": [4, 3, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [8, 2, 12, 2.5], "texture": "#1"},
+				"east": {"uv": [8, 2.5, 12, 3], "texture": "#1"},
+				"south": {"uv": [8, 3, 12, 3.5], "texture": "#1"},
+				"west": {"uv": [8, 3.5, 12, 4], "texture": "#1"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 3.5, 4],
+			"to": [12, 3.5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"up": {"uv": [8, 4, 4, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [-2.75, 3.75, 5.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -157.5, 0],
+			"translation": [3, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 5.25, 0]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [0, 3.5, 0]
+		},
+		"head": {
+			"rotation": [166.47, 12.29, -17.44],
+			"translation": [0, -0.75, 0.25],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -14],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 7],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

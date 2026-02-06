@@ -1,0 +1,56 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "./surgeon_saw",
+		"particle": "./surgeon_saw"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 12],
+			"to": [9, 2, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 14]},
+			"faces": {
+				"north": {"uv": [3, 3.5, 4, 4.5], "texture": "#0"},
+				"east": {"uv": [0, 3.5, 3, 4.5], "texture": "#0"},
+				"south": {"uv": [4, 3.5, 5, 4.5], "texture": "#0"},
+				"west": {"uv": [3, 3.5, 0, 4.5], "texture": "#0"},
+				"up": {"uv": [3, 4.5, 0, 3.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 4.5, 3, 3.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.95, -0.05, -1.05],
+			"to": [8.05, 6.05, 12.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 14]},
+			"faces": {
+				"east": {"uv": [0, 0, 6.5, 3], "texture": "#0"},
+				"west": {"uv": [6.5, 0, 0, 3], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 4.5, 8.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [45, 0, 0],
+			"translation": [2, 7.5, 2]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [-5.5, -2.5, 0]
+		},
+		"gui": {
+			"rotation": [50, -40, 40],
+			"translation": [-2.5, 4.75, 0]
+		},
+		"fixed": {
+			"rotation": [90, 45, -90],
+			"translation": [9.75, 10.75, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}
