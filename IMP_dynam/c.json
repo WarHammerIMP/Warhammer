@@ -2,10 +2,10 @@
 	"formatVersion": 1,
 	"content": {
 		"parent": "",
-		"remote_parent": "IMP_dynam",
+		"remote_parent": "imp_dynam",
 		"files": {
 			"dynamicmcpack.json": {
-				"hash": "e7173d021e8d0bc9c57ac5dc8dd94106783b04c8",
+				"hash": "479783cf1088aa1a977e87b162930c5fa80ca40d",
 				"size": 191
 			},
 			"pack.mcmeta": {
