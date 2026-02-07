@@ -4,11 +4,11 @@
 	"name": "WarHammer",
 	"contents": [
 		{
+			"id": "warhammer",
 			"url": "dynam/c.json",
 			"hash": "7f1849f4f6be8e9fe6a42a5c8fe9f6488f5b52ca",
-			"id": "warhammer",
-			"name": "WarHammerIMP",
-			"required": true
+			"required": true,
+			"name": "WarHammerIMP"
 		}
 	]
 }
