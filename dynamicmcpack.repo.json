@@ -1,11 +1,11 @@
 {
     "formatVersion": 1,
-    "build": 23,
+    "build": 24,
     "name": "WarHammer",
     "contents": [
         {
             "url": "dynam/c.json",
-            "hash": "c24a324213c39b38bf2f14421c93d6dd20c2b6bb",
+            "hash": "a8a3ae36c79517d8224d83ccb7c40e3c63b5995a",
             "id": "warhammer",
             "name": "WarHammerIMP",
             "required": true
