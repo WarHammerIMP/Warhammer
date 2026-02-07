@@ -1,9 +1,11 @@
 {
-  "current": {},
-  "remote": {
-    "sign_no_required": true, 
-    "type": "dynamic_repo",
-    "url": "https://warhammerimp.github.io/Warhammer/"
-  },
-  "formatVersion": 1
+    "current": {
+        "build": 21
+    },
+    "remote": {
+        "sign_no_required": true,
+        "type": "dynamic_repo",
+        "url": "https://warhammerimp.github.io/Warhammer/"
+    },
+    "formatVersion": 1
 }

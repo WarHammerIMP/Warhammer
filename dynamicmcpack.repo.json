@@ -1,14 +1,14 @@
 {
-	"formatVersion": 1,
-	"build": 15,
-	"name": "WarHammer",
-	"contents": [
-		{
-			"id": "warhammer",
-			"url": "dynam/c.json",
-			"hash": "7f1849f4f6be8e9fe6a42a5c8fe9f6488f5b52ca",
-			"required": true,
-			"name": "WarHammerIMP"
-		}
-	]
+    "formatVersion": 1,
+    "build": 21,
+    "name": "WarHammer",
+    "contents": [
+        {
+            "url": "dynam/c.json",
+            "hash": "ff2cb9e4c0b1b36209f1b2926a3464654fe92fb9",
+            "id": "warhammer",
+            "name": "WarHammerIMP",
+            "required": true
+        }
+    ]
 }
