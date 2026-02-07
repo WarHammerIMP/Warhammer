@@ -5,7 +5,7 @@
 		"remote_parent": "dynam",
 		"files": {
 			"dynamicmcpack.json": {
-				"hash": "33fd453a1dcc8c1e94910d92d771442c3de2e64e",
+				"hash": "c1f42e481bd43c21db931e4ee43c15d013e228c2",
 				"size": 192
 			},
 			"pack.mcmeta": {
