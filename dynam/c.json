@@ -8029,11 +8029,11 @@
                 "size": 41
             },
             "c.json": {
-                "hash": "ff2cb9e4c0b1b36209f1b2926a3464654fe92fb9",
-                "size": 453833
+                "hash": "f97569de50b3889d4eec511e5762e3b277408c5c",
+                "size": 453836
             },
             "dynamicmcpack.json": {
-                "hash": "b5a3468f62ef7b2958d23a068f2582505ed22642",
+                "hash": "d5bb08be56f8b10d8f5106abe3b9a7400170bf9d",
                 "size": 228
             },
             "pack.mcmeta": {
