@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "./capacitor",
-		"particle": "./capacitor"
+		"0": "./capacitor_1",
+		"particle": "./capacitor_1"
 	},
 	"elements": [
 		{
