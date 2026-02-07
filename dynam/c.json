@@ -5,7 +5,7 @@
 		"remote_parent": "dynam",
 		"files": {
 			"dynamicmcpack.json": {
-				"hash": "479783cf1088aa1a977e87b162930c5fa80ca40d",
+				"hash": "2855eeb5ef1e8b3930e302a4fca08768460854f7",
 				"size": 191
 			},
 			"pack.mcmeta": {
@@ -419,6 +419,70 @@
 			"assets/minecraft/optifine/cit/warhammer/food/cooked_beef/soup_lentils/soup_lentils_food.png": {
 				"hash": "3e45c7260d2d569d1a6d76825fd18bfe4ba32308",
 				"size": 415
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_arm/arm_food.png": {
+				"hash": "2711bbc303759d8165d47a662293388b0838b4db",
+				"size": 411
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_arm/m_arm.json": {
+				"hash": "78ee3b507aa87daba52cb706bdb355936c8354d9",
+				"size": 2796
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_arm/m_arm.png": {
+				"hash": "0056275d7ab322454d00c3ef05f57981a9e0eaf5",
+				"size": 499
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_arm/m_arm.properties": {
+				"hash": "32433e33a87c5ee3c062b4340e857ff7777fe30b",
+				"size": 180
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_body/body_food.png": {
+				"hash": "2711bbc303759d8165d47a662293388b0838b4db",
+				"size": 411
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_body/m_body.json": {
+				"hash": "2a2e4e194c60ea3ffcb0336dc27587a3de53d29c",
+				"size": 2745
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_body/m_body.png": {
+				"hash": "6580e0a18dbc52a704ef527fdf9a114494c60ceb",
+				"size": 986
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_body/m_body.properties": {
+				"hash": "17ac2b5ed1314d1adba5757248801d5a7a3a3bd5",
+				"size": 181
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_head/chicken_food.png": {
+				"hash": "b7a3129e93c7c07911da892ddd5e163c9197065f",
+				"size": 480
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_head/m_head.json": {
+				"hash": "55eb1238099da9e38d51d73d012faa089f28868e",
+				"size": 2619
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_head/m_head.png": {
+				"hash": "9061cb7a172f88018291041a1229f3092f2a956f",
+				"size": 854
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_head/m_head.properties": {
+				"hash": "f0b3dc90c2d5cfa94da0bd5c7cd59b5573f62bb0",
+				"size": 193
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_leg/arm_leg.png": {
+				"hash": "2711bbc303759d8165d47a662293388b0838b4db",
+				"size": 411
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_leg/m_leg.json": {
+				"hash": "e7d00a18e2dccfa878d682ca27d2090f3ae79130",
+				"size": 2787
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_leg/m_leg.png": {
+				"hash": "09f32d5c31175e32f8d9797965b721f907e805e5",
+				"size": 478
+			},
+			"assets/minecraft/optifine/cit/warhammer/food/rotten_flesh/manufactorum/manufactorum_leg/m_leg.properties": {
+				"hash": "006c2398df4a22068b3df073a08818b48a4686d5",
+				"size": 174
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/bundle/gift/blue_gift.png": {
 				"hash": "b32c027ce689829ada3f3c1d6773c4a4aa066b7c",
@@ -2453,16 +2517,16 @@
 				"size": 122
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/corpse_plus_1.json": {
-				"hash": "dd902cde28ac587cb0ac1654bd6f07f97af2ad99",
-				"size": 9005
+				"hash": "a3c2030302f6c76d2b105c743bc4ee2662d2280b",
+				"size": 8973
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/corpse_plus_1.properties": {
 				"hash": "49e4c6ad8462689e9ac06c4ce89565312874f5af",
 				"size": 133
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/corpse_plus_2.json": {
-				"hash": "1f4abebf1de3c71700849204ebf32526502566a7",
-				"size": 8685
+				"hash": "65b9553d71bfe5091693fc02a910c9535f32614b",
+				"size": 8653
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/corpse_plus_2.properties": {
 				"hash": "90e62fd683f348863ff105c0080be33650352fba",
@@ -2481,20 +2545,20 @@
 				"size": 2627
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/dead_manuf_1.png": {
-				"hash": "dc4a9efd37d534a2c4eedc8440b14d73f61faa22",
-				"size": 2480
+				"hash": "913e0a4f4c3ad14f30ea7b19611f0a7101f40a2b",
+				"size": 2818
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/dead_manuf_2.png": {
-				"hash": "5aa919be79642a3a85881275aef6c7f559ebd3a3",
-				"size": 2597
+				"hash": "c58c85d4c186aead875320236a74b251b38676e5",
+				"size": 2951
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/manufackt_1.json": {
-				"hash": "1db1fc484b50d2cfb26a300918d1916e71f78ab7",
-				"size": 10983
+				"hash": "15e7d60f090a897057563072ddf93cd755d872ba",
+				"size": 11003
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/manufackt_1.png": {
-				"hash": "59c1d9950fd7a2b6f7869dbbef63699406fc8729",
-				"size": 2808
+				"hash": "32d8a01bd9c8959b2fd205cb0be1e366bf79e558",
+				"size": 3240
 			},
 			"assets/minecraft/optifine/cit/warhammer/item/iron_ingot/dead_corpses/manufackt_1/manufackt_1.properties": {
 				"hash": "ef27a58a4c3ac34afefc9ac6046021cd4ee277e6",
@@ -5196,6 +5260,18 @@
 				"hash": "5c82e5e01f90012aa8201787820b3d02733d91d9",
 				"size": 260
 			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/axe/ice_double_axe/ice_double_axe.json": {
+				"hash": "fb64fb6df6e5848e9f22cd1adc3ff26ed8ea64df",
+				"size": 4289
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/axe/ice_double_axe/ice_double_axe.png": {
+				"hash": "599224052ed3d852ea3cfe31c12e867b91150e7d",
+				"size": 1760
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/axe/ice_double_axe/ice_double_axe.properties": {
+				"hash": "00a8b7de89a24bea84094cd0fbcf392b329bc0a5",
+				"size": 252
+			},
 			"assets/minecraft/optifine/cit/warhammer/weapon/axe/omnisian_axe/omnisian_axe.json": {
 				"hash": "c0b0c17be46a78dfb1668635e5d41b34316b35ce",
 				"size": 3509
@@ -6608,6 +6684,22 @@
 				"hash": "3cf4a7f4f96f082259373678db10dacbb4c49725",
 				"size": 5479
 			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_iron/shield_iron.json": {
+				"hash": "837e341f3ac2dc0ade773aeae548e277f0a93820",
+				"size": 4710
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_iron/shield_iron.png": {
+				"hash": "4da9e7d13b9c01240ae6222820346f7a087e01f0",
+				"size": 3002
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_iron/shield_iron.properties": {
+				"hash": "836d428312663c1e66352a83fb0d3992cadf2b29",
+				"size": 262
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_iron/shield_iron_blocking.json": {
+				"hash": "bc268d96fb0c4750c2414c9ca6a1d0ba5fbdde77",
+				"size": 4657
+			},
 			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_relict/shield_relict.json": {
 				"hash": "f1693bbf13b66ee4ef31538c3ee7100f25ebdf08",
 				"size": 9532
@@ -6647,6 +6739,22 @@
 			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_ultramar/texture.png": {
 				"hash": "fe710fbca78e52e5122ca3aacf157f7f1e24ce22",
 				"size": 1581
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_wolves/shield_wolves.json": {
+				"hash": "4c5a044eebb578c9c39ce607ebefe8f2e7373af4",
+				"size": 4797
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_wolves/shield_wolves.png": {
+				"hash": "4eed8a4c07b4f13904f201397e1033a4446e5c69",
+				"size": 2368
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_wolves/shield_wolves.properties": {
+				"hash": "40a0e46822b6682c93fda74910a7d5e71c78094c",
+				"size": 210
+			},
+			"assets/minecraft/optifine/cit/warhammer/weapon/shield/shield_wolves/shield_wolves_blocking.json": {
+				"hash": "e1fdab1b168cfc8b70bfd0fe8e352e46604bb94f",
+				"size": 4744
 			},
 			"assets/minecraft/optifine/cit/warhammer/weapon/shovel/saper_shovel/krigs_shovel.png": {
 				"hash": "91b348bedc79dbbb6eeedc5d4a675c84eba07800",
